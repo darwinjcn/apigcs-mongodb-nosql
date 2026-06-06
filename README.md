@@ -253,5 +253,5 @@ Todo el material documental del proyecto se encuentra organizado dentro del repo
 ---
 
 <p align="center">
-  <sub>Proyecto profesional de gestión de bases de datos NoSQL.</sub>
+  <sub>2026. Proyecto profesional de gestión de bases de datos NoSQL.</sub>
 </p>
