@@ -50,8 +50,8 @@ apigcs-mongodb-nosql/
 │   │   ├── 08_operador_and.png
 │   │   ├── 09_operador_or.png
 │   │   └── 10_operador_not.png
-│   ├── Evaluacion_2_comandos_Nosql.pdf
-│   └── pautas_evaluacion.pdf
+│   ├── doc_comandos_nosql.pdf
+│   └── pautas_proyecto.pdf
 ├── data/
 │   └── dump/
 │       └── apigcs/
@@ -75,21 +75,21 @@ apigcs-mongodb-nosql/
 
 **Operador `$in`** - Filtrar usuarios por roles específicos:
 
-<img src="docs/screenshots/01_operador_in.png" alt="Operador $in" width="700" />
+<img src="docs/screenshots/01_operador_in.png" alt="Operador $in" width="350" />
 
 
 
 
 **Operador `$gt`** - Documentos con versión mayor a 1:
 
-<img src="docs/screenshots/02_operador_gt.png" alt="Operador $gt" width="700" />
+<img src="docs/screenshots/02_operador_gt.png" alt="Operador $gt" width="350" />
 
 
 
 
 **Operador `$lte`** - Usuarios con ID menor o igual a 50:
 
-<img src="docs/screenshots/03_operador_lte.png" alt="Operador $lte" width="700" />
+<img src="docs/screenshots/03_operador_lte.png" alt="Operador $lte" width="350" />
 
 
 
@@ -101,14 +101,14 @@ apigcs-mongodb-nosql/
 
 **`$group` y `$sum`** - Agrupación en colección blog:
 
-<img src="docs/screenshots/04_agregacion_blog.png" alt="Agregación Blog" width="700" />
+<img src="docs/screenshots/04_agregacion_blog.png" alt="Agregación Blog" width="350" />
 
 
 
 
 **`$group` y `$sum`** - Contabilización de documentos por categoría:
 
-<img src="docs/screenshots/05_agregacion_documentos.png" alt="Agregación Documentos" width="700" />
+<img src="docs/screenshots/05_agregacion_documentos.png" alt="Agregación Documentos" width="350" />
 
 
 
@@ -120,14 +120,14 @@ apigcs-mongodb-nosql/
 
 **Operador `$exists`** - Verificación de campos existentes:
 
-<img src="docs/screenshots/06_operador_exists.png" alt="Operador $exists" width="700" />
+<img src="docs/screenshots/06_operador_exists.png" alt="Operador $exists" width="350" />
 
 
 
 
 **Operador `$type`** - Validación de tipos de datos:
 
-<img src="docs/screenshots/07_operador_type.png" alt="Operador $type" width="700" />
+<img src="docs/screenshots/07_operador_type.png" alt="Operador $type" width="350" />
 
 
 
@@ -139,21 +139,21 @@ apigcs-mongodb-nosql/
 
 **Operador `$and`** - Condiciones combinadas:
 
-<img src="docs/screenshots/08_operador_and.png" alt="Operador $and" width="700" />
+<img src="docs/screenshots/08_operador_and.png" alt="Operador $and" width="350" />
 
 
 
 
 **Operador `$or`** - Búsqueda multi-criterio:
 
-<img src="docs/screenshots/09_operador_or.png" alt="Operador $or" width="700" />
+<img src="docs/screenshots/09_operador_or.png" alt="Operador $or" width="350" />
 
 
 
 
 **Operador `$not`** - Exclusión de estados:
 
-<img src="docs/screenshots/10_operador_not.png" alt="Operador $not" width="700" />
+<img src="docs/screenshots/10_operador_not.png" alt="Operador $not" width="350" />
 
 ---
 
@@ -218,9 +218,17 @@ mongosh queries/04_operadores_logicos.js
 
 ---
 
-## 📸 Documentación Visual
+## 📚 Documentación
 
-Las capturas de ejecución en consola están disponibles en `./docs/screenshots/`.
+Todo el material documental del proyecto se encuentra organizado dentro del repositorio. A continuación se detalla la ubicación de cada recurso:
+
+| Ubicación | Contenido |
+|-----------|-----------|
+| `docs/` | Carpeta raíz de documentación técnica |
+| `docs/doc_comandos_nosql.pdf` | Informe principal de la evaluación con resultados |
+| `docs/pautas_proyecto.pdf` | Pautas y criterios oficiales de la evaluación |
+| `docs/screenshots/` | Capturas de pantalla de la ejecución de las consultas |
+| `queries/` | Scripts `.js` con las queries de MongoDB documentadas |
 
 ---
 
