@@ -66,37 +66,94 @@ apigcs-mongodb-nosql/
 
 ---
 
-## 📷 Vista Previa del Proyecto
+## 🖼️ Galería de Consultas
 
-### 🔢 Operadores de Comparación
+### Operadores de Comparación
 
-<p align="center">
-  <img src="docs/screenshots/01_operador_in.png" width="32%" alt="Operador $in" />
-  <img src="docs/screenshots/02_operador_gt.png" width="32%" alt="Operador $gt" />
-  <img src="docs/screenshots/03_operador_lte.png" width="32%" alt="Operador $lte" />
-</p>
 
-### 📊 Operadores de Agregación
 
-<p align="center">
-  <img src="docs/screenshots/04_agregacion_blog.png" width="32%" alt="Agregación Blog" />
-  <img src="docs/screenshots/05_agregacion_documentos.png" width="32%" alt="Agregación Documentos" />
-</p>
 
-### 🧬 Operadores de Elementos
+**Operador `$in`** - Filtrar usuarios por roles específicos:
 
-<p align="center">
-  <img src="docs/screenshots/06_operador_exists.png" width="32%" alt="Operador $exists" />
-  <img src="docs/screenshots/07_operador_type.png" width="32%" alt="Operador $type" />
-</p>
+![Operador $in](docs/screenshots/01_operador_in.png)
 
-### 🧠 Operadores Lógicos
 
-<p align="center">
-  <img src="docs/screenshots/08_operador_and.png" width="32%" alt="Operador $and" />
-  <img src="docs/screenshots/09_operador_or.png" width="32%" alt="Operador $or" />
-  <img src="docs/screenshots/10_operador_not.png" width="32%" alt="Operador $not" />
-</p>
+
+
+**Operador `$gt`** - Documentos con versión mayor a 1:
+
+![Operador $gt](docs/screenshots/02_operador_gt.png)
+
+
+
+
+**Operador `$lte`** - Usuarios con ID menor o igual a 50:
+
+![Operador $lte](docs/screenshots/03_operador_lte.png)
+
+
+
+
+### Operadores de Agregación
+
+
+
+
+**`$group` y `$sum`** - Agrupación en colección blog:
+
+![Agregación Blog](docs/screenshots/04_agregacion_blog.png)
+
+
+
+
+**`$group` y `$sum`** - Contabilización de documentos por categoría:
+
+![Agregación Documentos](docs/screenshots/05_agregacion_documentos.png)
+
+
+
+
+### Operadores de Elementos
+
+
+
+
+**Operador `$exists`** - Verificación de campos existentes:
+
+![Operador $exists](docs/screenshots/06_operador_exists.png)
+
+
+
+
+**Operador `$type`** - Validación de tipos de datos:
+
+![Operador $type](docs/screenshots/07_operador_type.png)
+
+
+
+
+### Operadores Lógicos
+
+
+
+
+**Operador `$and`** - Condiciones combinadas:
+
+![Operador $and](docs/screenshots/08_operador_and.png)
+
+
+
+
+**Operador `$or`** - Búsqueda multi-criterio:
+
+![Operador $or](docs/screenshots/09_operador_or.png)
+
+
+
+
+**Operador `$not`** - Exclusión de estados:
+
+![Operador $not](docs/screenshots/10_operador_not.png)
 
 ---
 
