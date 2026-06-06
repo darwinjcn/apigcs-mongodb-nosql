@@ -75,21 +75,21 @@ apigcs-mongodb-nosql/
 
 **Operador `$in`** - Filtrar usuarios por roles específicos:
 
-![Operador $in](docs/screenshots/01_operador_in.png)
+<img src="docs/screenshots/01_operador_in.png" alt="Operador $in" width="700" />
 
 
 
 
 **Operador `$gt`** - Documentos con versión mayor a 1:
 
-![Operador $gt](docs/screenshots/02_operador_gt.png)
+<img src="docs/screenshots/02_operador_gt.png" alt="Operador $gt" width="700" />
 
 
 
 
 **Operador `$lte`** - Usuarios con ID menor o igual a 50:
 
-![Operador $lte](docs/screenshots/03_operador_lte.png)
+<img src="docs/screenshots/03_operador_lte.png" alt="Operador $lte" width="700" />
 
 
 
@@ -101,14 +101,14 @@ apigcs-mongodb-nosql/
 
 **`$group` y `$sum`** - Agrupación en colección blog:
 
-![Agregación Blog](docs/screenshots/04_agregacion_blog.png)
+<img src="docs/screenshots/04_agregacion_blog.png" alt="Agregación Blog" width="700" />
 
 
 
 
 **`$group` y `$sum`** - Contabilización de documentos por categoría:
 
-![Agregación Documentos](docs/screenshots/05_agregacion_documentos.png)
+<img src="docs/screenshots/05_agregacion_documentos.png" alt="Agregación Documentos" width="700" />
 
 
 
@@ -120,14 +120,14 @@ apigcs-mongodb-nosql/
 
 **Operador `$exists`** - Verificación de campos existentes:
 
-![Operador $exists](docs/screenshots/06_operador_exists.png)
+<img src="docs/screenshots/06_operador_exists.png" alt="Operador $exists" width="700" />
 
 
 
 
 **Operador `$type`** - Validación de tipos de datos:
 
-![Operador $type](docs/screenshots/07_operador_type.png)
+<img src="docs/screenshots/07_operador_type.png" alt="Operador $type" width="700" />
 
 
 
@@ -139,21 +139,21 @@ apigcs-mongodb-nosql/
 
 **Operador `$and`** - Condiciones combinadas:
 
-![Operador $and](docs/screenshots/08_operador_and.png)
+<img src="docs/screenshots/08_operador_and.png" alt="Operador $and" width="700" />
 
 
 
 
 **Operador `$or`** - Búsqueda multi-criterio:
 
-![Operador $or](docs/screenshots/09_operador_or.png)
+<img src="docs/screenshots/09_operador_or.png" alt="Operador $or" width="700" />
 
 
 
 
 **Operador `$not`** - Exclusión de estados:
 
-![Operador $not](docs/screenshots/10_operador_not.png)
+<img src="docs/screenshots/10_operador_not.png" alt="Operador $not" width="700" />
 
 ---
 
