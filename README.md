@@ -15,6 +15,13 @@
 
 Proyecto de gestión de datos NoSQL aplicado a un sistema de **Gestión de Contingencias Satelitales (APIGCS)**. Implementa operadores avanzados de MongoDB para filtrado, agregación, validación de esquemas y consultas multicriterio sobre un modelo de datos documental.
 
+### ✨ Capacidades Destacadas
+
+- 🔍 **Filtrado avanzado** de documentos por rangos, tipos y existencia de campos
+- 📊 **Agregación de datos** para generación de métricas y reportes operativos
+- 🛡️ **Validación de esquemas flexibles** en bases de datos NoSQL
+- 🧠 **Consultas complejas** con lógica condicional multi-criterio
+
 **Colecciones del sistema:**
 
 | Colección | Descripción |
@@ -61,22 +68,33 @@ apigcs-mongodb-nosql/
 
 ## 📷 Vista Previa del Proyecto
 
+### 🔢 Operadores de Comparación
+
 <p align="center">
   <img src="docs/screenshots/01_operador_in.png" width="32%" alt="Operador $in" />
   <img src="docs/screenshots/02_operador_gt.png" width="32%" alt="Operador $gt" />
   <img src="docs/screenshots/03_operador_lte.png" width="32%" alt="Operador $lte" />
 </p>
+
+### 📊 Operadores de Agregación
+
 <p align="center">
   <img src="docs/screenshots/04_agregacion_blog.png" width="32%" alt="Agregación Blog" />
   <img src="docs/screenshots/05_agregacion_documentos.png" width="32%" alt="Agregación Documentos" />
-  <img src="docs/screenshots/06_operador_exists.png" width="32%" alt="Operador $exists" />
 </p>
+
+### 🧬 Operadores de Elementos
+
 <p align="center">
+  <img src="docs/screenshots/06_operador_exists.png" width="32%" alt="Operador $exists" />
   <img src="docs/screenshots/07_operador_type.png" width="32%" alt="Operador $type" />
+</p>
+
+### 🧠 Operadores Lógicos
+
+<p align="center">
   <img src="docs/screenshots/08_operador_and.png" width="32%" alt="Operador $and" />
   <img src="docs/screenshots/09_operador_or.png" width="32%" alt="Operador $or" />
-</p>
-<p align="center">
   <img src="docs/screenshots/10_operador_not.png" width="32%" alt="Operador $not" />
 </p>
 
@@ -125,6 +143,8 @@ cd apigcs-mongodb-nosql
 ```
 
 ### 2. Restaurar la base de datos
+
+Asegúrate de que MongoDB esté corriendo como servicio. Ejecuta el siguiente comando desde la raíz del proyecto:
 
 ```bash
 mongorestore --db apigcs data/dump/apigcs
