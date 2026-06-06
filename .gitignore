@@ -1,0 +1,11 @@
+# MongoDB / Datos locales
+*.log
+data/db/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
