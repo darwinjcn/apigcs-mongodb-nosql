@@ -31,6 +31,44 @@ Proyecto de gestión de datos NoSQL aplicado a un sistema de **Gestión de Conti
 
 ---
 
+## 🛠️ Stack Tecnológico
+
+| Componente | Tecnología |
+|------------|------------|
+| Motor | MongoDB 8.3.2 (NoSQL Documental) |
+| Shell | mongosh 2.8.3 + PowerShell |
+| GUI | MongoDB Compass |
+| Sistema Operativo | Windows 11 Pro |
+| Documentación | Markdown + PDF técnico |
+
+---
+
+## 🎯 Operadores Implementados
+
+| Categoría | Operadores | Caso de Uso |
+|-----------|------------|-------------|
+| **Comparación** | `$gt`, `$gte`, `$lt`, `$lte`, `$in` | Filtrado por versión, rangos de ID y unidades operativas |
+| **Agregación** | `$group`, `$sum` | Métricas de incidencias y documentos por categoría |
+| **Elementos** | `$exists`, `$type` | Auditoría de esquemas flexibles y validación de tipos |
+| **Lógicos** | `$and`, `$or`, `$not` | Consultas multicriterio para reportes operativos |
+
+### 📊 Detalle de Consultas
+
+| # | Operador | Descripción |
+|---|----------|-------------|
+| 01 | `$in` | Usuarios de unidades Camatagua / Baemari |
+| 02 | `$gt` | Documentos con versión > 1.0.2 |
+| 03 | `$lte` | Comentarios de foro con creador ID ≤ 3 |
+| 04 | `$group` + `$sum` | Conteo de incidencias por estado |
+| 05 | `$group` + `$sum` | Documentos subidos por categoría |
+| 06 | `$exists` | Verificación de campo `titulo` en blog |
+| 07 | `$type` | Validación numérica de `rol_id` |
+| 08 | `$and` | Incidencias Alta + En Progreso |
+| 09 | `$or` | Temas resueltos o de usuario ID 2 |
+| 10 | `$not` | Exclusión de unidad operativa Caracas |
+
+---
+
 ## 📁 Estructura del Proyecto
 
 ```
@@ -152,6 +190,8 @@ apigcs-mongodb-nosql/
 
 <img src="docs/screenshots/10_operador_not.png" alt="Operador $not" width="350" />
 
+---
+
 ## 📋 Evidencia de Ejecución
 
 Las capturas de pantalla de todas las consultas ejecutadas en MongoDB Shell están disponibles en:
@@ -240,32 +280,6 @@ db.usuarios.find({ unidad_operativa: { $not: { $eq: "Caracas" } } }).pretty()
 
 ---
 
-## 🎯 Operadores Implementados
-
-| Categoría | Operadores | Caso de Uso |
-|-----------|------------|-------------|
-| **Comparación** | `$gt`, `$gte`, `$lt`, `$lte`, `$in` | Filtrado por versión, rangos de ID y unidades operativas |
-| **Agregación** | `$group`, `$sum` | Métricas de incidencias y documentos por categoría |
-| **Elementos** | `$exists`, `$type` | Auditoría de esquemas flexibles y validación de tipos |
-| **Lógicos** | `$and`, `$or`, `$not` | Consultas multicriterio para reportes operativos |
-
-### 📊 Detalle de Consultas
-
-| # | Operador | Descripción |
-|---|----------|-------------|
-| 01 | `$in` | Usuarios de unidades Camatagua / Baemari |
-| 02 | `$gt` | Documentos con versión > 1.0.2 |
-| 03 | `$lte` | Comentarios de foro con creador ID ≤ 3 |
-| 04 | `$group` + `$sum` | Conteo de incidencias por estado |
-| 05 | `$group` + `$sum` | Documentos subidos por categoría |
-| 06 | `$exists` | Verificación de campo `titulo` en blog |
-| 07 | `$type` | Validación numérica de `rol_id` |
-| 08 | `$and` | Incidencias Alta + En Progreso |
-| 09 | `$or` | Temas resueltos o de usuario ID 2 |
-| 10 | `$not` | Exclusión de unidad operativa Caracas |
-
----
-
 ## 🚀 Instalación y Ejecución Local
 
 ### Prerrequisitos
@@ -340,18 +354,6 @@ Todo el material documental del proyecto se encuentra organizado dentro del repo
 
 ---
 
-## 🛠️ Stack Tecnológico
-
-| Componente | Tecnología |
-|------------|------------|
-| Motor | MongoDB 8.3.2 (NoSQL Documental) |
-| Shell | mongosh 2.8.3 + PowerShell |
-| GUI | MongoDB Compass |
-| Sistema Operativo | Windows 11 Pro |
-| Documentación | Markdown + PDF técnico |
-
----
-
 ## 👥 Equipo
 
 - **Ana Contreras**
@@ -360,6 +362,18 @@ Todo el material documental del proyecto se encuentra organizado dentro del repo
 
 ---
 
-<p align="center">
-  <sub>Proyecto profesional de gestión de bases de datos NoSQL.</sub>
-</p>
+<div align="center">
+
+---
+
+### ⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub ⭐
+
+[![GitHub Stars](https://img.shields.io/github/stars/darwinjcn/apigcs-mongodb-nosql?style=for-the-badge&logo=github&logoColor=white&color=FFC107&labelColor=1F2937)](https://github.com/darwinjcn/apigcs-mongodb-nosql/stargazers)
+
+---
+
+<sub>🗓️ <b>2026</b> · Proyecto profesional de gestión de bases de datos NoSQL</sub>
+<br>
+<sub>Desarrollado con ❤️ por el equipo APIGCS</sub>
+
+</div>
